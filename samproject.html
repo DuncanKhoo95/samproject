@@ -6,6 +6,7 @@
       <title>Impulse Gaming</title>
 
       <link rel="stylesheet" href="css/samproject_main.css">
+      <script src="javascript/samproject.js"></script>
 
   </head>
   <body>
@@ -14,21 +15,108 @@
       <li><a class="active">Home</a></li>
       <li><a href="">News</a></li>
       <li><a href="">Contact</a></li>
-      <li style ="float: right"><a href="pages/selling_form.html">About</a></li>
+      <li style ="float: right"><a onclick="myFunction()">Sell your games here</a></li>
+      <a style ="float: right"><input type="text" placeholder="Search.."></a>
     </ul>
 
-<h1> New Releases </h1>
+  <div class="new_release">
+
+      <h1> NEW RELEASES </h1>
 
   <div class="row">
     <div class="column">
-    <img src="img_snow.jpg" alt="Snow" style="width:100%">
+      <img src="pictures/FFVII_promo_art.jpg" alt="FFVII"/>
+      <div class="img_title">Final Fantasy VII Remake</div>
   </div>
-  <div class="column">
-    <img src="img_forest.jpg" alt="Forest" style="width:100%">
+    <div class="column">
+      <img src="pictures/RE3_promo_art.jpg" alt="RE3"/>
+      <div class="img_title">Resident Evil 3 Remake</div>
+    </div>
+    <div class="column">
+      <img src="pictures/animal_cross_promo_art.jpg" alt="Ani_Cross"/>
+      <div class="img_title">Animal Crossing: New Horizons</div>
   </div>
-  <div class="column">
-    <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
+    <div class="column">
+      <img src="pictures/nioh2_promo_art.jpg" alt="Nioh_2"/>
+      <div class="img_title">Nioh 2</div>
+    </div>
   </div>
-</div>
+
+  </div>
+
+    <h1> UPCOMING GAMES </h1>
+
+  <div class="row">
+    <div class="column">
+      <img src="pictures/gears_tactics_promo_art.jpg"/>
+      <div class="img_title_2 ">Gears Tactics</div>
+    </div>
+    <div class="column">
+      <img src="pictures/xcom_chimera_squad_promo_art.jpg" style="object-fit:cover; object-position:center"/>
+      <div class="img_title_2">XCOM Chimera Squad</div>
+    </div>
+    <div class="column">
+      <img src="pictures/trials_of_mana_promo_art.jpg"/>
+      <div class="img_title_2">Trials of Mana</div>
+    </div>
+    <div class="column">
+      <img src="pictures/moving_out_promo_art.jpg" style="object-fit:cover"/>
+      <div class="img_title_2">Moving Out</div>
+    </div>
+
+  </div>
+
+  <h1> 2019 GREATEST HITS </h1>
+
+  <div class="row">
+    <table>
+      <tr>
+        <td class="GH_list"> 1) Resident Evil 2 </td>
+        <td class="GH_list"> 6) Slay The Spire </td>
+      </tr>
+      <tr>
+        <td class="GH_list"> 2) Disco Elysium </td>
+        <td class="GH_list"> 7) Fire Emblem: Three Houses </td>
+      </tr>
+      <tr>
+        <td class="GH_list"> 3) Monster Hunter: Iceborne </td>
+        <td class="GH_list"> 8) Devil May Cry 5 </td>
+      </tr>
+      <tr>
+        <td class="GH_list"> 4) Sekiro: Shadows Die Twice </td>
+        <td class="GH_list"> 9) Super Mario Maker 2 </td>
+      </tr>
+      <tr>
+        <td class="GH_list"> 5) Asgard's Wrath </td>
+        <td class="GH_list"> 10) Astral Chain </td>
+    </tr>
+  </table>
+  </div>
+
+  <div class="grad" id="myDiv">
+
+  <h1> SELLING FORM</h1>
+
+  <form action="/action_page.php">
+    <p><strong>Please enter your name: </p></strong>
+    <p><input type="text" name="name" value="Your name"></p>
+
+    <p><strong>Please enter your birth date: </strong></p>
+    <p><input type="date" name="birth" value="your age"></p>
+
+    <p><strong>Please state the game you wish to sell:</strong></p>
+    <p><input type="text" name="game_name" value="Name of the game"></p>
+
+    <p><strong>If possible could you state the reason why? (Optional)</strong></p>
+    <p><input type="text" name="reason" value="Your reason"></p>
+    <input type="submit" value="Submit">
+  </form>
+
+  </div>
+
+
+
+
+
   </body>
 </html>
