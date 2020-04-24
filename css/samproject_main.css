@@ -138,6 +138,11 @@ form {
 body {
   background-color: #c2c2d6;
 }
+
+.sell_form{
+	height: 30px;
+	font-size: 25px;
+}
 /*.grad {
   background-image: linear-gradient(to right, #07065b, white);
 }//
