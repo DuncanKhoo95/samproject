@@ -1,4 +1,20 @@
 /*styling*/
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #888;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #095180;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #090979;
+}
+
 body {
 		font-family: sans-serif;
     background-color: #c2c2d6;
@@ -95,4 +111,5 @@ li :hover{
   margin-right: 16px;
   font-size: 17px;
   border-bottom: 1px solid white;
-}
+
+	/*modal images*/

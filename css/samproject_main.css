@@ -1,3 +1,50 @@
+/*styling*/
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #888;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #095180;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #090979;
+}
+
+p{
+	color: black;
+	font-size: 25px
+}
+
+h1 {
+	font-size: 35px;
+	font-weight: bold;
+	font-family: FreeMono, monospace;
+	text-decoration: underline;
+	margin-left: 200px;
+	color: #0071CD;
+	word-spacing: -0.2em;
+}
+
+form {
+	margin-left: 250px;
+}
+
+body {
+  background-color: #c2c2d6;
+	scrollbar-width: thin;
+	scrollbar-color: dark;
+}
+
+.sell_form{
+	height: 30px;
+	font-size: 25px;
+}
+
 /* menu list*/
 
 ul {
@@ -90,7 +137,7 @@ li :hover{
 img {
 	width: 100%;
 	height: 100%;
-
+	object-fit: cover;
 	background-position: center;
 	background-size: cover;
 
@@ -132,34 +179,3 @@ td {
 	padding-bottom: 20px;
 
 }
-/*styling*/
-p{
-	color: black;
-	font-size: 25px
-}
-
-h1 {
-	font-size: 35px;
-	font-weight: bold;
-	font-family: FreeMono, monospace;
-	text-decoration: underline;
-	margin-left: 200px;
-	color: #0071CD;
-	word-spacing: -0.2em;
-}
-
-form {
-	margin-left: 250px;
-}
-
-body {
-  background-color: #c2c2d6;
-}
-
-.sell_form{
-	height: 30px;
-	font-size: 25px;
-}
-/*.grad {
-  background-image: linear-gradient(to right, #07065b, white);
-}//
