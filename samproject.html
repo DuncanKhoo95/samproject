@@ -5,6 +5,7 @@
 
       <title>Impulse Gaming</title>
 
+      <link rel="stylesheet" href="css/bootstrap.min.css" >
       <link rel="stylesheet" href="css/samproject_main.css">
       <script src="javascript/samproject.js"></script>
 
@@ -15,34 +16,36 @@
       <li><a class="active">Home</a></li>
       <li><a href="pages/News.html">News</a></li>
       <li><a href="">Contact</a></li>
-      <li style ="float: right"><a onclick="myFunction()">Sell your games here</a></li>
+      <li style ="float: right; color:#0072CE"><a onclick="myFunction()">Sell your games here</a></li>
       <a style ="float: right"><input type="text" placeholder="Search.."></a>
     </ul>
 
-  <div class="new_release">
+  <div class="new-releases px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
 
       <h1> NEW RELEASES </h1>
 
   <div class="row">
     <div class="column">
       <img src="pictures/FFVII_promo_art.jpg" alt="FFVII"/>
-      <div class="img_title">Final Fantasy VII Remake</div>
+      <div class="img__title">Final Fantasy VII Remake</div>
   </div>
     <div class="column">
       <img src="pictures/RE3_promo_art.jpg" alt="RE3"/>
-      <div class="img_title">Resident Evil 3 Remake</div>
+      <div class="img__title">Resident Evil 3 Remake</div>
     </div>
     <div class="column">
       <img src="pictures/animal_cross_promo_art.jpg" alt="Ani_Cross"/>
-      <div class="img_title">Animal Crossing: New Horizons</div>
+      <div class="img__title">Animal Crossing: New Horizons</div>
   </div>
     <div class="column">
       <img src="pictures/nioh2_promo_art.jpg" alt="Nioh_2"/>
-      <div class="img_title">Nioh 2</div>
+      <div class="img__title">Nioh 2</div>
     </div>
   </div>
 
   </div>
+
+  <div class="upcoming-games px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
 
     <h1> UPCOMING GAMES </h1>
 
@@ -63,60 +66,68 @@
       <img src="pictures/moving_out_promo_art.jpg" style="object-fit:cover"/>
       <div class="img_title_2">Moving Out</div>
     </div>
+  </div>
 
   </div>
+
+<div class="greatest-hits px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
 
   <h1> 2019 GREATEST HITS </h1>
 
-  <div class="row">
-    <table>
-      <tr>
-        <td class="GH_list"> 1) Resident Evil 2 </td>
-        <td class="GH_list"> 6) Slay The Spire </td>
-      </tr>
-      <tr>
-        <td class="GH_list"> 2) Disco Elysium </td>
-        <td class="GH_list"> 7) Fire Emblem: Three Houses </td>
-      </tr>
-      <tr>
-        <td class="GH_list"> 3) Monster Hunter: Iceborne </td>
-        <td class="GH_list"> 8) Devil May Cry 5 </td>
-      </tr>
-      <tr>
-        <td class="GH_list"> 4) Sekiro: Shadows Die Twice </td>
-        <td class="GH_list"> 9) Super Mario Maker 2 </td>
-      </tr>
-      <tr>
-        <td class="GH_list"> 5) Asgard's Wrath </td>
-        <td class="GH_list"> 10) Astral Chain </td>
-    </tr>
-  </table>
-  </div>
+<div class="container">
+  <ul class="GH_list">
+   <li class="GH_games pb-3 mx-auto text-left"> Resident Evil 2 </li>
+   <li class="GH_games pb-3 mx-auto text-left"> Disco Elysium </li>
+   <li class="GH_games pb-3 mx-auto text-left"> Monster Hunter: Iceborne </li>
+   <li class="GH_games pb-3 mx-auto text-left"> Sekiro: Shadows Die Twice </li>
+   <li class="GH_games pb-3 mx-auto text-left"> Asgard's Wrath </li>
+   <li class="GH_games pb-3 mx-auto text-left"> Slay the Spire </li>
+   <li class="GH_games pb-3 mx-auto text-left"> Fire Emblem: Three Houses </li>
+   <li class="GH_games pb-3 mx-auto text-left"> Devil May Cry 5 </li>
+   <li class="GH_games pb-3 mx-auto text-left"> Super Mario Maker 2 </li>
+   <li class="GH_games pb-3 mx-auto text-left"> Astral Chain </li>
+ </ul>
 
-  <div class="grad" id="myDiv">
+</div>
+
+</div>
+
+
+<div class="selling-form px-3 py-3 pt-md-5 pb-md-4">
 
   <h1> SELLING FORM</h1>
 
-  <form action="/action_page.php">
-    <p><strong>Please enter your name: </p></strong>
-    <p><input class="sell_form" type="text" name="name" value="Your name"></p>
-
-    <p><strong>Please enter your birth date: </strong></p>
-    <p><input class="sell_form" type="date" name="birth" value="your age"></p>
-
-    <p><strong>Please state the game you wish to sell:</strong></p>
-    <p><input class="sell_form" type="text" name="game_name" value="Name of the game"></p>
-
-    <p><strong>If possible could you state the reason why? (Optional)</strong></p>
-    <p><input class="sell_form" type="text" name="reason" value="Your reason"></p>
-    <input type="submit" value="Submit">
+  <form>
+    <div class="form-group" id="myDiv">
+      <label>Please enter your name: </label>
+      <input class="sell-form" type="text" placeholder="Your name">
+    </div>
+    <div class="form-group">
+      <label>Please enter your birth date: </label>
+      <input class="sell-form" type="date" placeholder="Your age">
+    </div>
+    <div class="form-group">
+      <label>Please state the game you wish to sell:</label>
+      <input class="sell-form" type="text" placeholder="Name of the game">
+    </div>
+    <div class="form-group">
+      <label>If possible could you state the reason why? (Optional)</label>
+      <input class="sell-form" type="text" placeholder="Your reason">
+    </div>
+    <div class="form-group">
+    <input class="btn btn-secondary" type="Submit" value="Submit">
+    </div>
   </form>
+
+</div>
 
   </div>
 
 
 
 
-
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>

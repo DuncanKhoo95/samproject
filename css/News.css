@@ -26,14 +26,15 @@ h1	{
 		margin-bottom: 0;
 }
 
-.details	{
-		margin-bottom: -10px;
+.news__review--details	{
+		margin-bottom: -5px;
 }
 
 .paragraph	{
 		font-family: sans-serif;
-		margin-left: 150px;
-		margin-right: 350px;
+		text-align: justify;
+		margin-left: 250px;
+		margin-right: 150px;
 		font-size: 25px;
 }
 
@@ -41,13 +42,11 @@ h1	{
 
 article {
 		width: 600px;
-		margin-left: 200px;
+		margin-left: 250px;
 		padding-bottom: 0px;
 }
 
-img {
-		margin-left: 200px;
-}
+
 
 div	{
 		margin-bottom: 50px;
@@ -55,7 +54,6 @@ div	{
 
 .pic_caption {
 		position: relative;
-		margin-left: 200px;
 		margin-top:	5px;
 }
 
@@ -99,7 +97,6 @@ li :hover{
 		left: 0;
 		width: 100%;
 		margin-top: -0.3em;
-
 }
 
 .menu input[type=text] {
