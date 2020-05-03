@@ -15,7 +15,6 @@
 	background: #090979;
 }
 
-
 p{
 	color: black;
 	font-size: 25px
@@ -121,6 +120,7 @@ img {
 .column:hover img, .column:focus img{
 	transform: scale(1.2);
 	transition: transform ease-out 250ms;
+	cursor: pointer;
 }
 
 .column:hover img:before, .column:focus img:before {
@@ -151,11 +151,11 @@ img {
 
 /*GH list */
 
-.GH_list{
+.GH-list {
 	column-count: 2;
 }
 
-.GH_games{
+.GH-games {
 	background-color: #c2c2d6;
 	float: none;
 	font-size: 25px;
@@ -164,11 +164,11 @@ img {
 	position: relative;
 }
 
-.GH_list{
+.GH-list{
 	counter-reset: counter-name;
 }
 
-.GH_games::before {
+.GH-games::before {
 	counter-increment: counter-name;
 	content: counter(counter-name) ;
 	position: absolute;
@@ -196,4 +196,20 @@ img {
 
 .sell-form {
 
+}
+
+.close {
+	position: absolute;
+	top: 15px;
+  right: 35px;
+	color: #f1f1f1;
+	font-size: 60px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.close :hover{
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
 }
